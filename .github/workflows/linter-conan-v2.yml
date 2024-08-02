@@ -5,7 +5,7 @@ on:
 
 env:
   PYTHONPATH: ${{github.workspace}}
-  PYVER: "3.8"
+  PYVER: "3.10"
   REQUIREMENTS: "pylint==2.14"
 
 jobs:
